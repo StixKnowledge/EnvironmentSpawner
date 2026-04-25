@@ -5,10 +5,6 @@ To ensure the spawner functions correctly, the Track Segment Prefab must follow 
 
 - Origin (0,0,0): The left-most point of your segment should be at local zero.
 
-- EndPoint: An empty GameObject placed at the far right of the segment.
-
-  - Note: The distance between the Origin and the EndPoint must equal the segmentLength value in the script.
-
 - Static Elements: Ground, walls, and decorative assets should be children of this prefab.
 
 **Technical Overview**
